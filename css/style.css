@@ -1,0 +1,49 @@
+/* css of landing page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+}
+main .item1 {
+  background-color: black;
+  height: 100vh;
+  width: 45%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+main .item2 {
+  background-color: #575a85;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #575a85;
+  padding: 10px;
+}
+p {
+  color: white;
+  padding: 10px;
+}
+img {
+  width: 80%;
+  margin-top: 60px;
+}
+main .item2 button {
+  width: 200px;
+  height: 47px;
+  background-color: #575a85;
+  border-radius: 10px;
+  border: 2px solid #b8bccc;
+  color: #b8bccc;
+}
+h2 {
+  color: #b8bccc;
+  padding: 30px;
+}
