@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 main {
   display: flex;
@@ -42,6 +43,7 @@ main .item2 button {
   border-radius: 10px;
   border: 2px solid #b8bccc;
   color: #b8bccc;
+  cursor:pointer;
 }
 h2 {
   color: #b8bccc;

@@ -28,7 +28,7 @@ async function getLocationInfo() {
     }
   } catch (error) {
     console.error("Error fetching location info:", error);
-    alert("If you are using AdBlocker, Kindly turn off for smooth functioning.");
+    alert("It feels like you are using AdBlocker, Kindly turn off for proper functioning.");
   }
 }
 getLocationInfo();
